@@ -82,6 +82,8 @@ To run RBS with relative error:
 - -qn \<querynum\> (10 by default)
 - -type \<the type of RBS\> (1 by default, 1 for RBS with additive error and 2 for RBS with relative error)
 
+Specifically, we vary theta (-e) in [1e-2, 1e-6] for RBS with additive error on all datasets. For RBS with relative error, we vary theta (-e) in [1e-2, 1e-6] on dblp-author and twitter datasets, [1e-3, 1e-7] on orkut-links and it-2004, and [1e-5, 1e-9] on indochina. 
+
 <br/>
 
 ## Remark:
