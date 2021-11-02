@@ -15,12 +15,14 @@ Please cite our paper when using the codes:
 ```
 
 <br/>
+
 ## Tested Environment:
 - Ubuntu 16.04.10
 - C++ 11
 - GCC 5.4.0
 
 <br/>
+
 ## Data:
 * All of the datasets used in the paper are publicly available at: 
 		* https://snap.stanford.edu/data/index.html
@@ -38,11 +40,13 @@ Please cite our paper when using the codes:
 * The code converts the raw data to binary file in CSR format when reading raw graphs for the first time. The converted binary data is stored in the directory: *./dataset/${filelabel}/*. 
 
 <br/>
+
 ## Query nodes:
 * When the code is invoked for the first time, it will automatically construct a query file containing 100 query nodes.
 * We name the query file as ${filelabel}.query and put it in the directory: *./query/*. 
 
 <br/>
+
 ## Execution:
 We include the fundamental commands to execute the codes in the script file: *RBS-master/run_script.sh*. To automatically execute our codes, please use the following bash commands: 
 ```
@@ -68,6 +72,7 @@ To run RBS with relative error:
 ```
 
 <br/>
+
 ## Parameters:
 - -d \<path of the RBS directory\> ("./" by default)
 - -f \<filelabel\> ("dblp-author" by default)
@@ -78,6 +83,7 @@ To run RBS with relative error:
 - -type \<the type of RBS\> (1 by default, 1 for RBS with additive error and 2 for RBS with relative error)
 
 <br/>
+
 ## Remark:
 * *datatset/*: containing the datasets.  
 * *query/*: containing the query files. 
