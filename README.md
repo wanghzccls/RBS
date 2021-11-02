@@ -36,7 +36,7 @@ Please cite our paper when using the codes:
 	* The number of nodes is explicitly specified in the first line of the data file. 
 	* Each line following the second line indicates a directed edge in the graph. 
 * We assume that all undirected graphs have been converted to directed graphs that each undirected edge appears twice in the data file. 
-* We assume that the node index starts from $0$. The number of nodes is larger than the largest node index. 
+* We assume that the node index starts from 0. The number of nodes is larger than the largest node index. 
 * The code converts the raw data to binary file in CSR format when reading raw graphs for the first time. The converted binary data is stored in the directory: *./dataset/${filelabel}/*. 
 
 <br/>
