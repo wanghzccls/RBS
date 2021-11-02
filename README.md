@@ -25,10 +25,10 @@ Please cite our paper when using the codes:
 
 ## Data:
 * All of the datasets used in the paper are publicly available at: 
-		* https://snap.stanford.edu/data/index.html
-		* https://law.di.unimi.it/datasets.php
+	* https://snap.stanford.edu/data/index.html
+	* https://law.di.unimi.it/datasets.php
 
-		Additionally, we provide a toy dataset at *./dataset/*. 
+	Additionally, we provide a toy dataset (toy.txt) at *./dataset/*. 
 
 * Each dataset has a unique name called filelabel (e.g. *dblp-author*, *indochina*, *orkut-links*, *it-2004* and *twitter*) . 
 * Please rename the raw datasets as *${filelabel}.txt* (e.g. *dblp-author.txt*, *indochina*, *orkut-links.txt*, *it-2004.txt* and *twitter.txt*) and put them in the directory: *./dataset/*. 
